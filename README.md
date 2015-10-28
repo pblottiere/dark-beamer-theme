@@ -2,6 +2,8 @@
 
 A dark minimalist LaTex Beamer theme.
 
+![Image](demo/embdemo.png)
+
 ## Demo
 
 To build the example, go to the demo directory and run make. A demo.pdf is
