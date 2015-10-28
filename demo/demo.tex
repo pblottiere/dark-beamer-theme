@@ -1,0 +1,61 @@
+\documentclass[12pt,t]{beamer}
+
+% usepackage
+\usepackage{../theme/dbt}
+
+\newcommand{\blankframe}[1]{
+    {%
+    \setbeamertemplate{footline}{}
+        \begin{frame}
+            \begin{center}
+                    #1
+                    \end{center}
+                \end{frame}
+            }
+        }
+
+% frame slide
+\title{DBT}
+\subtitle{A Dark Beamer Theme}
+
+\author{\href{}{pblottiere}}
+\institute {
+    \href{}{LaTex} \\[2pt]
+    \href{}{\tt \scriptsize 28/10/2015}
+}
+\date {
+    \href{https://github.com/pblottiere/dark-beamer-theme}
+         {\tt \scriptsize https://github.com/pblottiere/dark-beamer-theme}
+}
+
+\begin{document} {
+    \setbeamertemplate{footline}{}
+    \frame {
+        \titlepage
+    }
+}
+
+\begin{frame}{An elegant theme in so many ways!}
+    \subt{Yes, I'm completely objective...}
+    \vspace{40pt}
+    \begin{itemize}
+        \itemsep20pt
+        \item Minimalist
+
+        \onslide<2->{
+            \item Modern
+
+            \onslide<3->{
+                \item Simple
+            }
+        }
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Demonstration}
+    \subt{Source code}
+    \vspace{50pt}
+    \lstinputlisting[label=samplecode]{test.c}
+\end{frame}
+
+\end{document}

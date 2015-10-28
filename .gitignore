@@ -1,0 +1,8 @@
+*.toc
+*.log
+*.aux
+*.out
+*.nav
+demo.pdf
+*.snm
+*.vrb
